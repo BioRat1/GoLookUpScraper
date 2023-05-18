@@ -12,6 +12,7 @@ searchurl = "https://golookup.com/lander/people/default/processPeopleSearch"
 #The Results URL that pulls up the informaiton
 resultsurl = "https://golookup.com/lander/people/default/results"
 
+#The Error logic, Collecting user input for the payload and adding a bit of color
 def userInput(): 
     global firstName
     global lastName
